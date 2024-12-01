@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.parent{
+    width: 748px;
+    height: 748px;
+    margin: auto;
+    display: grid;
+    grid-gap: 9px;
+    grid-template-columns: 320px 198px 153px;
+    grid-template-rows: 414px 135px 153px;
+    background-color: black;
+}
+
+.parent .son1{
+    background-color: red;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    width: 320px;
+    height: 414px;
+}
+
+.parent .son2{
+    background-color: #f0efeb;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    width: 419px;
+    height: 415px;
+}
+
+ .parent .son3{
+    background-color: #f0efeb;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 320px;
+    height: 294px;
+}
+
+ .parent .son4{
+    background-color: #f0efeb;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: 360px;
+    height: 294px;
+}
+
+ .parent .son5{
+    background-color: blue;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+    width: 50px;
+    height: 130px;
+}
+
+ .parent .son6{
+    background-color: yellow;
+    grid-column: 2 / 3;
+    grid-row: 4 / 4;
+    width: 198px;
+    height: 20px;
+}
+
+ .parent .son7{
+    background-color: #f0efeb;
+    grid-column: 1 / 2;
+    grid-row: 4 / 4;
+    width: 320px;
+    height: 20px;
+}
+
+.parent .son8{
+    background-color: #f0efeb;
+    grid-column: 4 / 4;
+    grid-row: 3 / 4;
+    width: 50px;
+    height: 181px;
+}
+
